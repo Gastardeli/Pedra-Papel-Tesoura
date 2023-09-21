@@ -1,0 +1,108 @@
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+
+}
+
+ul#computadorEscolha li a,
+ul#jogadorEscolha li a {
+    opacity: 0.5;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Minecrafter';
+    src: url(fonts/Minecrafter.Alt.ttf);
+}
+body {
+    background-image: url(imgs/mine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal #titulo {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 40px;
+    
+}
+
+#jogadorNome {
+    margin: 100px;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+
+#jogadorEscolha {
+    display: flex;
+    justify-content: space-around;
+}
+
+#versus {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 100px;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#computadorNome {
+    margin: 100px;
+    font-family: 'Minecrafter', sans-serif;
+    font-size:40px;
+    color: white;
+}
+
+#computadorEscolha {
+    display: flex;
+    justify-content: space-around;
+}
+
+#computadorPontos {
+    align-items: center;
+    text-align: center;
+    font-size: 2pc;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#jogadorPontos {
+    text-align: center;
+    font-size: 2pc;
+    margin-top: 50px;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#mensagem {
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
